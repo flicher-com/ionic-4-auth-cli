@@ -12,11 +12,12 @@ In this Project I’m using side menu template of Ionic 4. If you already have a
 ### Prerequisites
 
 [Ionic Framework Docs](https://ionicframework.com/docs/)
+
 [Node](https://nodejs.org/)
 
 ### Installing
 
-If you want to install the project locall, you can using following command.
+If you want to install the project local, you can using following command.
 
 ```
 git clone https://github.com/flicher-net/ionic-4-auth-cli.git
