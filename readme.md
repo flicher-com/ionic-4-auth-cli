@@ -32,7 +32,7 @@ cd ionic-4-auth-cli/
 Install Node Modules
 
 ```
-sudo npm install
+sudo npm install --unsafe-perm=true --allow-root
 ```
 
 If you are using mac, you might get ENFILE: file table overflow errors, you can use these commands to solve it.
