@@ -1,6 +1,7 @@
 # Ionic 4 Auth CLI
 
 Starting point for Ionic 4 Application with Authentication build in.
+Go to [Ionic 4 User Registration & Login Tutorial](https://blog.flicher.net/ionic-4-user-registration-login-tutorial/) to see more info and screen shots.
 
 ## Getting Started
 
@@ -32,7 +33,7 @@ cd ionic-4-auth-cli/
 Install Node Modules
 
 ```
-sudo npm install --unsafe-perm=true --allow-root
+npm install --unsafe-perm=true --allow-root
 ```
 
 If you are using mac, you might get ENFILE: file table overflow errors, you can use these commands to solve it.
@@ -45,6 +46,15 @@ sudo sysctl -w kern.maxfilesperproc=65536
 ulimit -n 65536 65536    
 ```
 
+## Configure
+
+If you are going to be using a backend to store user details. Then go to src/app/services/env.service.ts file and give value to API_URL.
+
+For example:
+
+```
+API_URL = 'https://blog.flicher.net/api-url';
+```
 ## Deployment
 
 [iOS Setup](https://ionicframework.com/docs/installation/ios)
